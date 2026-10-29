@@ -1,0 +1,8 @@
+node_modules/
+*.log
+tmp/
+temp/
+*.wav
+*.mp3
+.DS_Store
+Thumbs.db

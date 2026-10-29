@@ -1,0 +1,25 @@
+{
+  "name": "voicevox-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for VOICEVOX Text-to-Speech (TTS), Song synthesis, and .vvproj project generation",
+  "main": "server.js",
+  "bin": {
+    "voicevox-mcp": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "voicevox",
+    "tts",
+    "speech-synthesis",
+    "singing-synthesis",
+    "song",
+    "ai",
+    "zundamon"
+  ],
+  "author": "Mitsutaka Kusakabe",
+  "license": "MIT"
+}
