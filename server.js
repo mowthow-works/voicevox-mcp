@@ -637,6 +637,12 @@ rl.on('line', async (line) => {
 
   const { id, method, params } = message;
 
+  // Handle Notifications (no response required per JSON-RPC / MCP specs)
+  if (id === undefined || id === null) {
+    // e.g., notifications/initialized
+    return;
+  }
+
   function sendResult(result) {
     const response = {
       jsonrpc: '2.0',
